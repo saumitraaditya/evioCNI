@@ -117,7 +117,7 @@ spec:
       serviceAccountName: evio
       initContainers:
       - name: install-cni
-        image: saumitraaditya/evio-cni:0.1
+        image: saumitraaditya/evio-cni:0.2
         volumeMounts:
         - name: cni
           mountPath: /etc/cni/net.d
